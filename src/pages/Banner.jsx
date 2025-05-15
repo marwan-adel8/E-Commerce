@@ -6,10 +6,12 @@ import "swiper/css/navigation";
 import { Link } from "react-router-dom";
 
 const images = [
-  "/src/assets/pexels-kaip-996329.jpg",
-  "/src/assets/pexels-nurseryart-354103.jpg",
-  "/src/assets/pexels-karolina-grabowska-5632346.jpg",
+  "/images/pexels-kaip-996329.jpg",
+  "/images/pexels-nurseryart-354103.jpg",
+  "/images/pexels-karolina-grabowska-5632346.jpg",
 ];
+
+
 
 const Banner = () => {
   return (
