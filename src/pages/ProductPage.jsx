@@ -16,7 +16,7 @@ const ProductPage = () => {
 
   const product = {
     id: 1,
-    img: "/public/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png",
+    img: "images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png",
     price: 550,
     oldPrice: 600,
     category: "Speakers",

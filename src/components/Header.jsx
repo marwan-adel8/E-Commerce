@@ -67,7 +67,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-3 flex justify-between items-center">
           <div className="text-2xl font-bold flex items-center gap-1">
             <img
-              src="/public/images/379396_shop_icon.png"
+              src="images/379396_shop_icon.png"
               alt="logo"
               className="w-12 h-12"
             />

@@ -19,13 +19,13 @@ const Products = () => {
   const productOverrides = {
     1: {
       title: "Sports T-shirt",
-      image: "/public/images/sport-t-shirt.jpg",
+      image: "images/sport-t-shirt.jpg",
       price: 299.99,
       desc: "Comfortable sports T-shirt made of high-quality materials.",
     },
     4: {
       title: "Bluetooth headphones",
-      image: "/public/images/ear-podes.jpg",
+      image: "images/ear-podes.jpg",
       price: 499.99,
       desc: "Bluetooth headphones with clear sound, stylish design and long battery life.",
     },
