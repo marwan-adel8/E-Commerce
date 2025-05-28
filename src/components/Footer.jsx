@@ -5,47 +5,42 @@ import {
   FaHeadset,
   FaFacebook,
   FaInstagram,
-  FaLinkedin ,
+  FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-8 px-6">
-      {/* Feature Section */}
-<div className="max-w-7xl mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-6 pb-10">
-        {/* Feature 1 */}
-        <div className="flex items-center gap-3">
-          <FaTruck className="text-coquelicot text-2xl" />
+    <footer className="bg-gray-900 text-white pt-12 pb-8 px-4 md:px-8">
+      {/* Features Section */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-10">
+        <div className="flex items-start gap-3">
+          <FaTruck className="text-coquelicot text-2xl mt-1" />
           <div>
             <h4 className="font-semibold text-base">Free Shipping</h4>
             <p className="text-sm text-gray-400">On orders over $50</p>
           </div>
         </div>
 
-        {/* Feature 2 */}
-        <div className="flex items-center gap-3">
-          <FaLock className="text-coquelicot text-2xl" />
+        <div className="flex items-start gap-3">
+          <FaLock className="text-coquelicot text-2xl mt-1" />
           <div>
             <h4 className="font-semibold text-base">Secure Payment</h4>
             <p className="text-sm text-gray-400">100% secure checkout</p>
           </div>
         </div>
 
-        {/* Feature 3 */}
-        <div className="flex items-center gap-3">
-          <FaCheckCircle className="text-coquelicot text-2xl" />
+        <div className="flex items-start gap-3">
+          <FaCheckCircle className="text-coquelicot text-2xl mt-1" />
           <div>
             <h4 className="font-semibold text-base">Quality Guarantee</h4>
             <p className="text-sm text-gray-400">Product quality assured</p>
           </div>
         </div>
 
-        {/* Feature 4 */}
-        <div className="flex items-center gap-3">
-          <FaHeadset className="text-coquelicot text-2xl" />
+        <div className="flex items-start gap-3">
+          <FaHeadset className="text-coquelicot text-2xl mt-1" />
           <div>
             <h4 className="font-semibold text-base">24/7 Support</h4>
             <p className="text-sm text-gray-400">Dedicated support</p>
@@ -53,9 +48,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Main Footer Links */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-sm border-t border-gray-800 pt-10">
-        {/* Logo and brief */}
+      {/* Main Footer */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-10 text-sm">
+        {/* Logo and Brief */}
         <div>
           <h2 className="text-2xl font-bold text-coquelicot">ShopZone</h2>
           <p className="mt-3 text-gray-400">
@@ -64,13 +59,15 @@ export default function Footer() {
         </div>
 
         {/* Quick Links */}
-       <ul className="space-y-2 text-gray-400">
-  <li><Link to="/" className="hover:text-white">Home</Link></li>
-  <li><Link to="/shop" className="hover:text-white">Shop</Link></li>
-  <li><Link to="/Shoppage" className="hover:text-white">Categories</Link></li>
-  <li><Link to="" className="hover:text-white">Contact</Link></li>
-</ul>
-
+        <div>
+          <h3 className="font-semibold mb-3">Quick Links</h3>
+          <ul className="space-y-2 text-gray-400">
+            <li><Link to="/" className="hover:text-white">Home</Link></li>
+            <li><Link to="/shop" className="hover:text-white">Shop</Link></li>
+            <li><Link to="/Shoppage" className="hover:text-white">Categories</Link></li>
+            <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
+          </ul>
+        </div>
 
         {/* Customer Service */}
         <div>
@@ -84,25 +81,23 @@ export default function Footer() {
         </div>
 
         {/* Social */}
-  <div>
-  <h3 className="font-semibold mb-3">Follow Us</h3>
-  <div className="flex gap-4 text-2xl text-gray-400">
-    <a href="https://www.facebook.com/share/1AHavxyUiV/" target="_blank" rel="noopener noreferrer">
-      <FaFacebook className="hover:text-coquelicot" />
-    </a>
-    <a href="https://www.instagram.com/el_sa_kaa/profilecard/?igsh=MXZnMHlqb3JvZnJ6eg==" target="_blank" rel="noopener noreferrer">
-      <FaInstagram className="hover:text-coquelicot" />
-    </a>
-   <a href="http://www.linkedin.com/in/marwan-elsaka-41ba70356" target="_blank" rel="noopener noreferrer">
-  <FaLinkedin className="hover:text-coquelicot" />
-</a>
-
-    <a href="https://github.com/marwan-adel8" target="_blank" rel="noopener noreferrer">
-      <FaGithub className="hover:text-coquelicot" />
-    </a>
-  </div>
-</div>
-
+        <div>
+          <h3 className="font-semibold mb-3">Follow Us</h3>
+          <div className="flex gap-4 text-2xl text-gray-400">
+            <a href="https://www.facebook.com/share/1AHavxyUiV/" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="hover:text-coquelicot" />
+            </a>
+            <a href="https://www.instagram.com/el_sa_kaa/profilecard/?igsh=MXZnMHlqb3JvZnJ6eg==" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="hover:text-coquelicot" />
+            </a>
+            <a href="http://www.linkedin.com/in/marwan-elsaka-41ba70356" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="hover:text-coquelicot" />
+            </a>
+            <a href="https://github.com/marwan-adel8" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="hover:text-coquelicot" />
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Bottom Text */}

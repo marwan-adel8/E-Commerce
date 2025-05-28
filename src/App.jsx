@@ -11,6 +11,7 @@ import ShopPage from './pages/ShopPage'
 import ProductPage from './pages/ProductPage'
 import AllProducts from './pages/AllProducts'
 import ProductDetails from './pages/ProductDetails';
+import ContactUs from './pages/ContactUs'
 
 
 const Layout = () =>{
@@ -36,6 +37,8 @@ const App = () => {
 <Route path="/product" element={<ProductPage />} />
           <Route path="/shop" element={<AllProducts />}></Route>
 <Route path="/product/:id" element={<ProductDetails />} />
+<Route path="/contact" element={<ContactUs />} />
+
 
 
 
