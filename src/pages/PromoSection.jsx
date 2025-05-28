@@ -49,7 +49,7 @@ const PromoSection = () => {
         {/* صورة المنتج */}
         <div className="flex-1">
           <img
-            src="JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png"
+            src="/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png"
             alt="Product"
             className="w-full max-w-md mx-auto"
           />
