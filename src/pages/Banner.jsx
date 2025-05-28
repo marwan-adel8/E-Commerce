@@ -44,7 +44,7 @@ const Banner = () => {
                 <h2 className="text-3xl md:text-5xl font-bold mb-4 animate-fade-in">
                  Best deals this week
                 </h2>
-             <Link to="/Cart">
+             <Link to="/shop">
   <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition duration-300 animate-fade-in delay-200">
     shop now
   </button>

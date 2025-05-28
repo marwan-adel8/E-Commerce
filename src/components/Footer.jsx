@@ -66,8 +66,8 @@ export default function Footer() {
         {/* Quick Links */}
        <ul className="space-y-2 text-gray-400">
   <li><Link to="/" className="hover:text-white">Home</Link></li>
-  <li><Link to="/cart" className="hover:text-white">Shop</Link></li>
-  <li><Link to="" className="hover:text-white">About Us</Link></li>
+  <li><Link to="/shop" className="hover:text-white">Shop</Link></li>
+  <li><Link to="/Shoppage" className="hover:text-white">Categories</Link></li>
   <li><Link to="" className="hover:text-white">Contact</Link></li>
 </ul>
 
@@ -76,10 +76,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Customer Service</h3>
           <ul className="space-y-2 text-gray-400">
-            <li><a href="/faq" className="hover:text-white">FAQ</a></li>
-            <li><a href="/returns" className="hover:text-white">Returns</a></li>
-            <li><a href="/shipping" className="hover:text-white">Shipping Info</a></li>
-            <li><a href="/support" className="hover:text-white">Support</a></li>
+            <li><a href="/" className="hover:text-white">FAQ</a></li>
+            <li><a href="/" className="hover:text-white">Returns</a></li>
+            <li><a href="/" className="hover:text-white">Shipping Info</a></li>
+            <li><a href="/" className="hover:text-white">Support</a></li>
           </ul>
         </div>
 
